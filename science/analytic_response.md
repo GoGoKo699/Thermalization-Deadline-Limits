@@ -44,7 +44,7 @@ Let $`\rho_0`$ be a fixed parameter-independent initial density operator, and
 let $`\mathcal R`$ be the fixed final discard/output channel. Define
 
 ```math
-g(y)=\operatorname{Tr}[Z\rho_M(y)],
+g(y)=\mathrm{Tr}[Z\rho_M(y)],
 \qquad
 \rho_M(y)=\mathcal R\!\left(U_y\rho_0U_y^\dagger\right).
 ```
@@ -134,7 +134,7 @@ B=B^\dagger,\qquad -I\le B\le I.
 The analytic scalar response is
 
 ```math
-g(z)=\operatorname{Tr}\!\left[B\,U_z\rho_0U_z^\sharp\right].
+g(z)=\mathrm{Tr}\!\left[B\,U_z\rho_0U_z^\sharp\right].
 ```
 
 Products with a trace-class operator are analytic in trace norm. Moreover,

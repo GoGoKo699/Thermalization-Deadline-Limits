@@ -29,7 +29,7 @@ $`Z|1\rangle=-|1\rangle`$ throughout.
 The target state and its $`Z=+1`$ population are
 
 ```math
-\gamma_y=\frac{e^{-\beta H_y}}{\operatorname{Tr}e^{-\beta H_y}}
+\gamma_y=\frac{e^{-\beta H_y}}{\mathrm{Tr}\,e^{-\beta H_y}}
 =\frac{I-\tanh(y)Z}{2},
 \qquad
 q(y)=\langle0|\gamma_y|0\rangle=\frac{1}{1+e^{2y}}.
@@ -100,7 +100,7 @@ The matching construction satisfies the stronger requirement of replacing
 **any** incoming state. Write
 
 ```math
-\mathcal G_y(X)=\operatorname{Tr}(X)\gamma_y.
+\mathcal G_y(X)=\mathrm{Tr}(X)\gamma_y.
 ```
 
 The constructed channel $`\Phi_y`$ obeys

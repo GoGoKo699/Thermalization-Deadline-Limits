@@ -73,7 +73,7 @@ using exact rational arithmetic.
 Let
 
 ```math
-g(y)=\operatorname{Tr}[Z\rho_M(y)].
+g(y)=\mathrm{Tr}[Z\rho_M(y)].
 ```
 
 The [entire-response theorem](analytic_response.md) gives
@@ -85,7 +85,7 @@ The [entire-response theorem](analytic_response.md) gives
 The target response is
 
 ```math
-\operatorname{Tr}[Z\gamma_y]=-\tanh y.
+\mathrm{Tr}[Z\gamma_y]=-\tanh y.
 ```
 
 For one always-on signal qubit, an elapsed deadline $`T`$ implies
@@ -266,7 +266,7 @@ $`a_n[g]/2`$: integrate on the unit circle and use the Chebyshev definition.
 On the circle $`|w|=R`$,
 
 ```math
-\left|\operatorname{Im}\frac{w+w^{-1}}2\right|
+\left|\mathrm{Im}\,\frac{w+w^{-1}}2\right|
 \le\frac{R-R^{-1}}2.
 ```
 

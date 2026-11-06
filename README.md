@@ -43,6 +43,19 @@ Start with the [operational model and exact claims](science/model.md), then foll
 
 The [LLM reading guide](llms.txt) maps questions to their authoritative files.
 
+## Learn the project
+
+The single educational anchor is **Nielsen and Chuang, *Quantum Computation and
+Quantum Information*, 10th Anniversary Edition (2010)**. The
+[Nielsen–Chuang bridge](learning/NIELSEN_CHUANG_BRIDGE.md) connects its quantum
+foundations to the unknown-Hamiltonian model, the approximation argument and
+the stopping-time distinction.
+
+The [30-milestone map](learning/MILESTONES.md) develops the background and then
+the research story, with understanding targets, dependencies and links to the
+authoritative proofs. Start at the [learning route](learning/README.md), or use
+the direct scientific route above.
+
 ## Reproduce the checks
 
 From the repository root:

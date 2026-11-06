@@ -105,14 +105,14 @@ be subsets of $`\{0,1\}^n`$. For an observed word $`s`$ of length $`n`$:
 - Output zero if $`s\notin\mathcal B_n`$.
 - Continue if $`s\in\mathcal B_n\setminus\mathcal A_n`$.
 
-Write $`\operatorname{Ext}(A)`$ for the set of one-bit extensions of words
+Write $`\mathrm{Ext}(A)`$ for the set of one-bit extensions of words
 in $`A`$. Consistency of already made decisions is expressed by
 
 ```math
-\operatorname{Ext}(\mathcal A_n)
+\mathrm{Ext}(\mathcal A_n)
 \subseteq\mathcal A_{n+1}
 \subseteq\mathcal B_{n+1}
-\subseteq\operatorname{Ext}(\mathcal B_n).
+\subseteq\mathrm{Ext}(\mathcal B_n).
 ```
 
 Thus decisions, once made, are preserved under extension. For $`s\in\{0,1\}^n`$, let $`|s|`$ denote its number of ones.
@@ -180,7 +180,7 @@ The incoming state can be swapped into a machine register and discarded.
 Since the coin generation uses fresh probes, the ideal truncated channel is
 
 ```math
-\mathcal R_{\gamma_{n,y}}(X)=\operatorname{Tr}(X)\gamma_{n,y}.
+\mathcal R_{\gamma_{n,y}}(X)=\mathrm{Tr}(X)\gamma_{n,y}.
 ```
 
 For an arbitrary input $`\rho_{SR}`$ entangled with an untouched reference,

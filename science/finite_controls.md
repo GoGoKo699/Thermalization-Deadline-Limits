@@ -64,7 +64,7 @@ initially in $`|0\rangle`$:
    is parked off the sensor during the exposure and restored afterward.
 2. Apply a known change of measurement basis to each probe. For example,
    with the Hadamard gate $`H_{\mathrm{Had}}`$ and phase gate
-   $`S_{\mathrm{ph}}=\operatorname{diag}(1,i)`$, take
+   $`S_{\mathrm{ph}}=\mathrm{diag}(1,i)`$, take
    $`V=XH_{\mathrm{Had}}S_{\mathrm{ph}}^\dagger`$. This maps the
    $`+Y`$ state to computational bit one and the $`-Y`$ state to bit zero.
 3. Apply the known reversible operation

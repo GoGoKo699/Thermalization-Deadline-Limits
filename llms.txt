@@ -1,0 +1,46 @@
+# Thermalization Deadline Limits
+
+This repository studies Gibbs preparation for one unknown known-axis qubit,
+H_y = (y/beta) Z with y in [-1,1]. The central results distinguish a common
+deterministic deadline from exact output at a random stopping time.
+
+## Authoritative scientific route
+
+- README.md: central question, results, scope and navigation.
+- science/README.md: connected reading route.
+- science/model.md: Hamiltonian, thermal band, admissible machine, error
+  criterion, signal action and exact theorem statements.
+- science/analytic_response.md: entire response, complex growth bound,
+  adaptive records, branch action budgets and admissible limiting protocols.
+- science/deadline_bound.md: partial fractions, Chebyshev coefficients,
+  the uniform exponential error floor and conservative constants.
+- science/thermal_coin.md: Ramsey input coins, the attributed analytic
+  Bernoulli factory and the finite-prefix preparation channel.
+- science/finite_controls.md: coherent finite circuit, arbitrary entangled
+  input replacement, Duhamel pulse error and elapsed-time accounting.
+- science/stopping_time.md: exact terminal marginals, necessary tail,
+  optimal uniform deadline quantiles and worst-case mean.
+- science/interpretation.md: operational significance and resource limits.
+- references/RELATED_WORK.md: source-level comparisons and attribution.
+- references/references.bib: primary bibliographic records.
+- verification/README.md: reproducible checks and their exact scope.
+
+## Interpretation rules
+
+Trace distance means half the trace norm. The deadline output is unconditional;
+success-conditioned outputs are a different task. The finite-control upper
+counts every pulse's duration while the unknown drift acts. Strength, size,
+memory, gate count and work have no common budget across accuracy targets.
+
+Exact random stopping is an ideal-instrument statement. Its necessary tail
+is a supremum over the parameter separately at each deadline. It does not
+identify one parameter that is hardest at all times.
+
+The thermal band is fixed in dimensionless units. Do not reinterpret the
+temperature scaling as a theorem for a fixed positive laboratory gap band.
+The analytic Bernoulli-factory theorem is credited to Nacu and Peres; the
+verification scripts do not implement or benchmark that complete factory.
+
+Use the topic pages as the scientific source of truth. Finite numerical
+checks support identities and normalization; the general results rest on
+the written proofs and explicitly cited theorem.

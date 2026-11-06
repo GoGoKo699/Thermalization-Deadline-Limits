@@ -1,0 +1,102 @@
+{
+  "scope": "Finite formula and matrix checks; general bounds and factory existence are established by proofs and cited theorems.",
+  "decimal_precision": 60,
+  "tolerance": "1e-48",
+  "chebyshev": {
+    "odd_coefficients": [
+      {
+        "n": 1,
+        "coefficient": "0.81167568513155896513"
+      },
+      {
+        "n": 3,
+        "coefficient": "-0.054245810326264283239"
+      },
+      {
+        "n": 5,
+        "coefficient": "0.004516821992830908149"
+      },
+      {
+        "n": 9,
+        "coefficient": "0.000032443948440411439294"
+      },
+      {
+        "n": 15,
+        "coefficient": "-1.9822365011119778301e-8"
+      }
+    ],
+    "even_indices": [
+      0,
+      2,
+      4,
+      8
+    ],
+    "agreement_below_1e-48": true
+  },
+  "constants": {
+    "A": "0.0075370147177976880864",
+    "B": "11.957972650959502896",
+    "ellipse_checks": [
+      {
+        "T_over_beta_hbar": "0.0",
+        "odd_index": 1
+      },
+      {
+        "T_over_beta_hbar": "0.1",
+        "odd_index": 3
+      },
+      {
+        "T_over_beta_hbar": "1.0",
+        "odd_index": 11
+      },
+      {
+        "T_over_beta_hbar": "5.0",
+        "odd_index": 51
+      },
+      {
+        "T_over_beta_hbar": "20.0",
+        "odd_index": 195
+      }
+    ]
+  },
+  "ramsey": {
+    "state_evolution_matches_coin": true,
+    "factory_matches_gibbs": true,
+    "points": [
+      {
+        "y": "-1.0",
+        "p": "0.26028723069789849986",
+        "q": "0.88079707797788244406"
+      },
+      {
+        "y": "-0.65",
+        "p": "0.34034560707149952842",
+        "q": "0.7858349830425586126"
+      },
+      {
+        "y": "0.0",
+        "p": "0.5",
+        "q": "0.5"
+      },
+      {
+        "y": "0.15",
+        "p": "0.53746485363637117104",
+        "q": "0.42555748318834101285"
+      },
+      {
+        "y": "0.9",
+        "p": "0.71748276705561510521",
+        "q": "0.14185106490048778959"
+      },
+      {
+        "y": "1.0",
+        "p": "0.73971276930210150014",
+        "q": "0.11920292202211755594"
+      }
+    ]
+  },
+  "complex_response": {
+    "finite_control_examples": 9,
+    "largest_bound_ratio": "0.30514125736513934351"
+  }
+}

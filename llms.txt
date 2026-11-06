@@ -25,6 +25,21 @@ deterministic deadline from exact output at a random stopping time.
 - references/references.bib: primary bibliographic records.
 - verification/README.md: reproducible checks and their exact scope.
 
+## Learning route
+
+The single educational anchor is Nielsen and Chuang, Quantum Computation and
+Quantum Information, 10th Anniversary Edition (2010).
+
+- learning/README.md: entry route and relation to the scientific account.
+- learning/NIELSEN_CHUANG_BRIDGE.md: verified chapter pointers, notation
+  translation, physical examples and the missing mathematical connections.
+- learning/MILESTONES.md: exactly M01 through M30, ordered through
+  background/preliminaries and narrative/innovation. Each record provides an
+  understanding target, earlier dependencies, conceptual role and sources.
+
+The primary research references remain proof dependencies and attribution;
+they do not silently replace or expand the single educational anchor.
+
 ## Interpretation rules
 
 Trace distance means half the trace norm. The deadline output is unconditional;

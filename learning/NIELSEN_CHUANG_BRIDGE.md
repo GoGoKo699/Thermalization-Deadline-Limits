@@ -40,7 +40,7 @@ An operator norm $`\|A\|`$ measures the largest amplification of a vector by $`A
 
 ### From a density operator to Gibbs populations
 
-A density operator $`\rho`$ is positive and has trace one. A pure state $`|\psi\rangle`$ has density operator $`|\psi\rangle\langle\psi|`$; a preparation that chooses states with classical probabilities has their probability-weighted average. The Born rule assigns probability $`\operatorname{Tr}(P\rho)`$ to a measurement projector $`P`$.
+A density operator $`\rho`$ is positive and has trace one. A pure state $`|\psi\rangle`$ has density operator $`|\psi\rangle\langle\psi|`$; a preparation that chooses states with classical probabilities has their probability-weighted average. The Born rule assigns probability $`\mathrm{Tr}(P\rho)`$ to a measurement projector $`P`$.
 
 Here the Hamiltonian is
 
@@ -70,7 +70,7 @@ For positive $`y`$, $`|0\rangle`$ has the higher energy and the smaller populati
 The expectation of $`Z`$ is the probability of zero minus the probability of one. The target response is consequently
 
 ```math
-\operatorname{Tr}(Z\gamma_y)=2q(y)-1=-\tanh y,
+\mathrm{Tr}(Z\gamma_y)=2q(y)-1=-\tanh y,
 \qquad
 \gamma_y=\frac{I-\tanh(y)Z}{2}.
 ```
@@ -99,7 +99,7 @@ For one fixed machine, its uniform error is
 E(M)=\sup_{y\in[-1,1]}D(\rho_M(y),\gamma_y).
 ```
 
-The supremum enforces accuracy throughout the promised interval for that same machine. For a possibly nondiagonal output, define $`g(y)=\operatorname{Tr}[Z\rho_M(y)]`$. Since $`\|Z\|=1`$, trace-norm duality gives
+The supremum enforces accuracy throughout the promised interval for that same machine. For a possibly nondiagonal output, define $`g(y)=\mathrm{Tr}[Z\rho_M(y)]`$. Since $`\|Z\|=1`$, trace-norm duality gives
 
 ```math
 |g(y)+\tanh y|
@@ -116,16 +116,16 @@ For the lower bound, the machine can start from any one fixed state independent 
 The construction handles the stronger reset task. Its ideal target is the replacement channel
 
 ```math
-\mathcal G_y(X)=\operatorname{Tr}(X)\gamma_y.
+\mathcal G_y(X)=\mathrm{Tr}(X)\gamma_y.
 ```
 
 A channel is a linear, completely positive, trace-preserving map on operators. “Completely positive” ensures that applying it locally also gives a valid state when an untouched reference is present. If the input is $`\rho_{SR}`$, the desired replacement acts as
 
 ```math
-(\mathcal G_y\otimes\operatorname{id}_R)(\rho_{SR})
+(\mathcal G_y\otimes\mathrm{id}_R)(\rho_{SR})
 =\gamma_y\otimes\rho_R,
 \qquad
-\rho_R=\operatorname{Tr}_S\rho_{SR}.
+\rho_R=\mathrm{Tr}_S\rho_{SR}.
 ```
 
 The reset removes the old system correlations while preserving the reference marginal. Physically, the incoming system state can be swapped into a discarded apparatus register. Fresh probes then supply the new output. An entropy sink and discarded registers are resources permitted by the model.

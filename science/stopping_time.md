@@ -46,7 +46,7 @@ according to whether the protocol had completed by that deadline:
 ```math
 \gamma_y=\sigma_y^{\le T}+\sigma_y^{\gt T},
 \qquad
-p_y(T):=\operatorname{Tr}\sigma_y^{\gt T}
+p_y(T):=\mathrm{Tr}\,\sigma_y^{\gt T}
        =\Pr_y(\tau\gt T).
 ```
 

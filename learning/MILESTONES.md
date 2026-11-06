@@ -83,7 +83,7 @@ Dependencies refer to earlier milestones. A source pointer locates the correspon
 
 **Central question.** How can unitary dynamics on a larger system implement reset and mixed-state output?
 
-**Understanding target.** Describe a channel through ancillary registers, joint evolution and a final partial trace. Understand the replacement map $`\mathcal G_y(X)=\operatorname{Tr}(X)\gamma_y`$ and the role of an entropy sink in discarding the incoming state.
+**Understanding target.** Describe a channel through ancillary registers, joint evolution and a final partial trace. Understand the replacement map $`\mathcal G_y(X)=\mathrm{Tr}(X)\gamma_y`$ and the role of an entropy sink in discarding the incoming state.
 
 **Dependencies and story role.** [M01](#m01), [M04](#m04). This expands the local sensor into the full preparation machine.
 
